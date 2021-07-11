@@ -156,21 +156,14 @@ header {
   justify-content: center;
 }
 
-#project-0 {
-  justify-content: center;
-  background-image: url('./img/recipe-roster-resize.jpg');
-  height: 320px;
-  width: 618px;
-  margin-bottom: 10px;
-}
 
 #top-project-container {
   display:block;
   margin-left:auto;
   margin-right:auto;
   height: 310px;
-  width: 618px;
-  margin-bottom: 115px
+  width: 350px;
+  margin-bottom: 70px
 }
 
 .top-project {
@@ -178,6 +171,13 @@ header {
   justify-content: center;
 }
 
+#project-0 {
+  justify-content: center;
+  background-image: url('./img/recipe-roster2-resize.jpg');
+  height: 260px;
+  width: 350px;
+  margin-bottom: 10px;
+}
 
 #project-1 {
   background-image: url('./img/baseball-grey.jpg');
@@ -368,6 +368,8 @@ footer {
   .resume-container {
     padding: 30px 100px 5px 100px;
   }
+
+
   
 }
 
@@ -411,6 +413,22 @@ footer {
 
   #photo-container {
     margin-left: 0px;
+  }
+
+  #project-0 {
+    /* background-image: url('./img/recipe-roster2-resize.jpg');
+    height: 260px;
+    width: 350px; */
+
+    background-image: url('./img/recipe-roster-resize.jpg');
+    height: 320px;
+    width: 618px;
+  }
+
+  #top-project-container {
+    height: 310px;
+    width: 618px;
+    margin-bottom: 115px
   }
 
   .input-div, .input-message-div {
