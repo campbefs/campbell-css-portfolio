@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+:root {
+  --medium-blue: rgba(20, 45, 68);
+  --near-white: rgba(240, 235, 216);
+  --light-blue: rgba(62, 92, 118);
+  --black-blue: rgba(13, 19, 33);
+  --middle-blue: rgba(116, 140, 171);
+}
+
 html {
   display: flex;
   flex-direction: column;
@@ -12,7 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(116, 140, 171);
+  background-color: var(--middle-blue);
 }
 
 code {
@@ -23,8 +31,8 @@ code {
 header {
   font-family: 'Josefin Sans', cursive;
   /* position: fixed; */
-  background-color: rgba(240, 235, 216);
-  color: rgba(13, 19, 33);
+  background-color: var(--near-white);
+  color: var(--black-blue);
   width: 100%;
   margin-right: 0px;
   display: flex;
@@ -62,13 +70,13 @@ header {
 
 .about-body {
   padding: 30px 7% 5px 7%;
-  color: rgba(240, 235, 216);
+  color: var(--near-white);
   /* font-size: large */
 }
 
 .body-header {
   font-size: xx-large;
-  color: rgba(13, 19, 33);
+  color: var(--black-blue);
   text-align: center;
 }
 
@@ -91,7 +99,7 @@ header {
 }
 
 .nav-active {
-  color: rgba(116, 140, 171);
+  color: var(--middle-blue);
 }
 
 .bottom-link-container {
@@ -112,7 +120,7 @@ header {
 #instructions {
   /* margin: 30px 0px 0px 100px; */
   padding: 30px 0px;
-  color: rgba(240, 235, 216);
+  color: var(--near-white);
   font-size: 20px;
 }
 
@@ -185,11 +193,11 @@ header {
   font-weight: bold;
   font-size: large;
   text-decoration: none;
-  color: rgba(13, 19, 33);
+  color: var(--black-blue);
 }
 
 .portfolio-link:hover {
-  color: rgba(240, 235, 216);
+  color: var(--near-white);
 }
 
 
@@ -252,34 +260,34 @@ textarea {
   width: 120px;
   font-weight: bold;
   border-radius: 5px;
-  background-color:  rgba(29, 45, 68);
-  color: rgba(240, 235, 216);
+  background-color:  var(--medium-blue);
+  color: var(--near-white);
 }
 
 .resume-container {
   padding: 30px 5% 5px 5%;
-  color: rgba(240, 235, 216);
+  color: var(--near-white);
 }
 
 #resume-link {
   text-decoration: none;
-  color: rgba(29, 45, 68);
+  color: var(--medium-blue);
   font-weight: bold;
 }
 
 #resume-link:hover {
-  color: rgba(62, 92, 118);
+  color: var(--light-blue);
 }
 
 
 .resume-container h1 {
   font-size: xx-large;
-  color: rgba(13, 19, 33);
+  color: var(--black-blue);
   margin-bottom: 50px;
 }
 
 .resume-container h2 {
-  color: rgba(13, 19, 33);
+  color: var(--black-blue);
 }
 
 .resume-container p {
@@ -350,10 +358,10 @@ footer {
   header {
     font-family: 'Josefin Sans', cursive;
     /* position: fixed; */
-    background-color: rgba(240, 235, 216);
+    background-color: var(--near-white);
     display: flex;
     flex-direction: row;
-    color: rgba(13, 19, 33);
+    color: var(--black-blue);
   }
   
   #main-text {
