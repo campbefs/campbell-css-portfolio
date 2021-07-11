@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(116, 140, 171);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  font-family: 'Josefin Sans', cursive;
+  /* position: fixed; */
+  background-color: rgba(240, 235, 216);
+  color: rgba(13, 19, 33);
+  width: 100%;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-text {
+  width: 100%;
+  margin: 30px 30% 10px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.nav-links {
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.link {
+  width: 150px;
+  padding: 0px 5%;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.about-body {
+  padding: 30px 7% 5px 7%;
+  color: rgba(240, 235, 216);
+  /* font-size: large */
+}
+
+.body-header {
+  font-size: xx-large;
+  color: rgba(13, 19, 33);
+  text-align: center;
+}
+
+.body-top-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+
+#photo {
+  height: 300px;
+}
+
+.nav-active {
+  color: rgba(116, 140, 171);
+}
+
+.bottom-link-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-link {
+  margin: 0px 15px;
+}
+
+#portfolio-header {
+  margin: 50px 100px 5px 100px;
+  /* padding: 30px 100px 5px 100px; */
+}
+
+#instructions {
+  /* margin: 30px 0px 0px 100px; */
+  padding: 30px 0px;
+  color: rgba(240, 235, 216);
+  font-size: 20px;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-portfolio-container {
+  margin: 0px 10% 0% 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.gen-container {
+  margin: 50px 5% 50px 5%;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.projects {
+  /* margin: 50px 5% 100px 5%; */
+  height: 260px;
+  width: 350px;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+}
+
+#project-1 {
+  background-image: url('./img/baseball-grey.jpg');
+}
+
+#project-2 {
+  background-image: url('./img/outcast-gray.jpg');
+}
+
+#project-3 {
+  background-image: url('./img/tech-haven-gray.jpg');
+}
+
+#project-4 {
+  background-image: url('./img/weather-dash-gray.jpg');
+}
+
+#project-5 {
+  background-image: url('./img/workday-gray.jpg');
+}
+
+#project-6 {
+  background-image: url('./img/code-quiz-gray.jpg');
+}
+
+.link-div {
+  width: 100%;
+  padding-top: 110px;
+  padding-left: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-link {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  color: rgba(13, 19, 33);
+}
+
+.portfolio-link:hover {
+  color: rgba(240, 235, 216);
+}
+
+
+.projects:hover {
+  opacity: .50;
+}
+
+#contact-container {
+  padding: 30px 5% 5px 5%;
+}
+
+#contact-header {
+  font-size: 30px;
+}
+
+#contact-form {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 140px;
+}
+
+.input {
+  margin-top: 15px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+}
+
+.label-div {
+  width: 80px;
+  padding-top: 7px;
+}
+
+input {
+  height: 23px;
+  width: 240px;
+  border-radius: 5px;
+}
+
+.message-div {
+  display: flex;
+  flex-direction: column;
+}
+
+#message-label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 320px;
+  border-radius: 5px;
+}
+
+#submit-button {
+  margin-top: 25px;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color:  rgba(29, 45, 68);
+  color: rgba(240, 235, 216);
+}
+
+.resume-container {
+  padding: 30px 5% 5px 5%;
+  color: rgba(240, 235, 216);
+}
+
+#resume-link {
+  text-decoration: none;
+  color: rgba(29, 45, 68);
+  font-weight: bold;
+}
+
+#resume-link:hover {
+  color: rgba(62, 92, 118);
+}
+
+
+.resume-container h1 {
+  font-size: xx-large;
+  color: rgba(13, 19, 33);
+  margin-bottom: 50px;
+}
+
+.resume-container h2 {
+  color: rgba(13, 19, 33);
+}
+
+.resume-container p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.bullets {
+  padding-left: 25px;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  /* body {
+    background-color: green;
+  } */
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    font-size: medium;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #contact-container {
+    padding: 30px 100px 5px 100px;
+
+  }
+
+  .input-div {
+    padding-left: 10%;
+  }
+
+  .input-message-div {
+    padding-left: 10%;
+  }
+
+  input {
+    width: 360px;
+  }
+
+  textarea {
+    width: 440px;
+  }
+
+  .resume-container {
+    padding: 30px 100px 5px 100px;
+  }
+  
+}
+
+
+/* FULL SCREEN */
+@media screen and (min-width: 1040px) {
+  /* body {
+    background-color: blue;
+  } */
+
+  header {
+    font-family: 'Josefin Sans', cursive;
+    /* position: fixed; */
+    background-color: rgba(240, 235, 216);
+    display: flex;
+    flex-direction: row;
+    color: rgba(13, 19, 33);
+  }
+  
+  #main-text {
+    margin: 50px 30% 30px 5%;
+    font-size: 40px;
+    width: 700px;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 20px 40px 0%;
+  }
+
+  .body-header {
+    text-align: left;
+  }
+
+  .body-top-container {
+    justify-content: left;
+    margin-left: 100px;
+  }
+
+  #photo-container {
+    margin-left: 0px;
+  }
+
+  .input-div, .input-message-div {
+    padding-left: 0px;
+  }
+
+  .resume-container {
+    padding: 30px 100px 5px 100px;
+  }
+
+  #contact-header {
+    margin-bottom: 80px;
+  }
+
+}
