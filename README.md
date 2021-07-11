@@ -14,4 +14,5 @@
 
   ## Live Application Snapshot
   Live Application can be found [here](campbefs.github.io/campbell-css-portfolio).
-  ![alt text](../Develop/assets/images/screenshot.JPEG 'Live Application Screenshot')
+  
+  ![alt text](./assets/img/screenshot.JPG 'Live Application Screenshot')
