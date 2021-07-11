@@ -156,6 +156,28 @@ header {
   justify-content: center;
 }
 
+#project-0 {
+  justify-content: center;
+  background-image: url('./img/recipe-roster-resize.jpg');
+  height: 320px;
+  width: 618px;
+  margin-bottom: 10px;
+}
+
+#top-project-container {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height: 310px;
+  width: 618px;
+}
+
+.top-project {
+  display: flex;
+  justify-content: center;
+}
+
+
 #project-1 {
   background-image: url('./img/baseball-grey.jpg');
 }
@@ -383,6 +405,7 @@ footer {
   .body-top-container {
     justify-content: left;
     margin-left: 100px;
+    display: flex;
   }
 
   #photo-container {
